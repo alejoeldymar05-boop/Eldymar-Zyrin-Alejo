@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Eldymar Zyrin Alejo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Eldymar Zyrin Alejo</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-card">
+      <h1>Contact</h1>
+      <p class="muted">I'm open to collaborations, internships, and projects. You can reach me via email.</p>
+
+      <div class="contact-info">
+        <!-- Replace the email below with your real one -->
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Phone: <span class="muted">+63 XX XXX XXXX</span></p>
+        <p>Location: <span class="muted">Torrijos, Marinduque, Philippines</span></p>
+      </div>
+
+      <p class="muted">Or write a quick message:</p>
+      <form action="mailto:youremail@example.com" method="post" enctype="text/plain" class="contact-form">
+        <label>
+          Your name
+          <input name="Name" type="text" placeholder="Your name">
+        </label>
+        <label>
+          Your message
+          <textarea name="Message" rows="5" placeholder="Write your message..."></textarea>
+        </label>
+        <p>
+          <button class="btn" type="submit">Send (opens email)</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-5"></span> Eldymar Zyrin Alejo</p>
+    </div>
+  </footer>
+</body>
+</html>
